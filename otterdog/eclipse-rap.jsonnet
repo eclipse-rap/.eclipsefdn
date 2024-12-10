@@ -35,6 +35,7 @@ orgs.newOrg('eclipse-rap') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "Eclipse RAP Runtime (Remote Application Platform)",
+      has_discussions: true,
       homepage: "https://www.eclipse.org/rap/",
       topics+: [
         "eclipse",
