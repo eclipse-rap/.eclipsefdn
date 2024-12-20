@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-rap') {
+orgs.newOrg('rt.rap', 'eclipse-rap') {
   settings+: {
     description: "",
     name: "Eclipse RAP",
